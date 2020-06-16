@@ -7,12 +7,23 @@
 //
 
 import UIKit
+import TPObfuscation
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var nonPasteableTextField: NonPasteableTextField!
+    @IBOutlet weak var pasteableTextField: UITextField!
+    @IBOutlet weak var textFieldWithExtension: UITextField!
+    
+    @IBOutlet weak var obfuscatedTitle: UILabel!
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        textFieldWithExtension.canPaste = false
+        obfuscatedTitle.text = TPObStr.O.r.a.n.g.e.space.i.s.space.s.e.c.u.r.e.d
+    
     }
 
 

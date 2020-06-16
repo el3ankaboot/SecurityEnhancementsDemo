@@ -1,0 +1,20 @@
+PODS:
+  - SwiftLint (0.39.2)
+  - TPObfuscation (1.1.0):
+    - SwiftLint
+
+DEPENDENCIES:
+  - TPObfuscation
+
+SPEC REPOS:
+  trunk:
+    - SwiftLint
+    - TPObfuscation
+
+SPEC CHECKSUMS:
+  SwiftLint: 22ccbbe3b8008684be5955693bab135e0ed6a447
+  TPObfuscation: 0a95ebc9009b38b940e790d7d4edf4c61967d28e
+
+PODFILE CHECKSUM: f5fecb638f373ebd9325c87c72cde90e2ae38ec2
+
+COCOAPODS: 1.9.1

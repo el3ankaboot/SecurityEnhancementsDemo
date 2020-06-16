@@ -1,0 +1,6 @@
+framework module TPObfuscation {
+  umbrella header "TPObfuscation-umbrella.h"
+
+  export *
+  module * { export * }
+}
